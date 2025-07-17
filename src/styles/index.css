@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.btn-eliminar {
+  display: none;
+}
+
+.tarea-hover:hover .btn-eliminar {
+  display: inline-block;
+}
